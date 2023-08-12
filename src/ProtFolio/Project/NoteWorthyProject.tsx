@@ -37,7 +37,7 @@ const NoteWorthyProject  :FC <PropsType> = ({  title , description, git   ,   li
         
             <p className=' text-gray-300  mt-[40px] text-center' > {description} </p>
             
-            <div  style={{ fontFamily : '"SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace', }} className=' w-full grid grid-cols-3 col-span-2  gap-1  justify-center items-center  w-full leading-5 fontF mt-[50px] text-gray-300 text-xs text-left  '>
+            <div  style={{ fontFamily : '"SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace', }} className=' w-full grid grid-cols-3 col-span-5  gap-1  justify-center items-center   leading-5 fontF mt-[50px] text-gray-300 text-xs text-left  '>
                 { language.map ((val,index)=>{
                     return ( <div className=' mr-2  px-3' key = {index}>  <div className=' list-item'> {val}</div> </div>)
                 })} 

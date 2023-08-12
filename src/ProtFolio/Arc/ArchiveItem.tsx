@@ -12,7 +12,19 @@ type  PropsType = {
 const ArchiveItem:FC <PropsType> = ({  year  ,  title,  git  ,  link   }) => {
   return (
     <div>
-        <div className='  w-full h-[50px] px-3  flex flex-row text-xl font-semibold    '> 
+           <tr className='w-[105%]  flex flex-row justify-center items-start mb-3'>
+            <td className=' w-[80px] h-full mx-2'> {year} </td>
+            <td className=' w-[75%] h-full  mx-2'> {title} </td>
+            <td className=' w-[20%] h-full mx-2'> 
+              
+            <div className=' text-2xl flex flex-row'> 
+                {   link &&(  <a href= {link } className='textH  ' target=      {'_blank'} > <FiExternalLink /> </a> )  }
+                {       git && (   <a href={git} className='textH  mx-4 ' target={'_blank'} > <FiGithub /> </a>   )
+                }
+            </div>
+            </td>
+        </tr>
+        {/* <div className='  w-full h-[50px] px-3  flex flex-row text-xl font-semibold    '> 
 
 
             <div style={{fontFamily : '"SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace', }} 
@@ -30,7 +42,7 @@ const ArchiveItem:FC <PropsType> = ({  year  ,  title,  git  ,  link   }) => {
             </div>
 
         </div>
-        </div>
+        </div> */}
     </div>
   )
 }
