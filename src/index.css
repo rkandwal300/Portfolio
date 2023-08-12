@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .fontareal{
+    font-size: 34px;
+    font-weight: 500;
+    font-family: 'Poppins',sans-serif;
+} */
+.mp0{
+    margin: 0;
+    padding: 0
+;}
+.borderB{
+    border:  1px solid  ;
+    border-color: rgb(98,250,215) ;
+}
+.textC {
+    color : rgb(98,250,215) ;
+}
+.textH{
+    color: rgb(136,146,176);
+}
+.textH:hover {
+    color : rgb(98,250,215) ;
+}
+.fontF{
+    font-family: 'Calibre, Inter', "San Francisco", "SF Pro Text", 'apple-system', system-ui, sans-serif ;;
+}
+.fontFM{
+    font-family: 'Calibre, Inter', "San Francisco", "SF Pro Text", 'apple-system', system-ui, sans-serif ;
+}
+.ResH{
+    background-color:  transparent;
+}
+.ResH:hover{
+    background-color:  rgba(245, 241, 241, 0.5);
+}
+
+.back{
+    background-color: rgb(10,25,47);
+}
+.NavWhite{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.BeforeAfter{
+    border:  2px solid  ;
+    border-color: rgb(98,250,215) ;
+}
+.BeforeAfter::before{
+    height: 10px;
+    width: 20px;
+    background-color: red;
+    border:  2px solid  ;
+    border-color: rgb(98,250,215) ;
+}
+.nameFam{
+    font-family: Calibre, Inter, "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif;
+}
+
+.Footerhover{
+    transform: translateY(50%);
+}
