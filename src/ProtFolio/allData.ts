@@ -16,11 +16,11 @@ export const  allData = [
         year : 2022 ,
     } ,
     {
-        title :  'My Easy-Cart ',
-        description :  'Building a custom E-commerce for you to buy items at good price .',
+        title :  'Youtube Clone ',
+        description :  'Building a custom Youtube clone using React javascript  with Tailwind CSS using custom Apis , Apis uused in categories search  video play etc .',
         github :'https://lnkd.in/g9JnnduR'  ,
-        linl :  'https://my-easycart.netlify.app/' ,
-        languages : [ 'React' , ' TypeScript' , ' API Integration' ],
+        linl :  'https://youtube-rkandwal300.netlify.app/' ,
+        languages : [ 'React' , ' javascript' , 'Youtube Api', "Tailwind CSS" ],
         year : 2022 ,
     },
     {
