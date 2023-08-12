@@ -14,10 +14,10 @@ const About = () => {
 
   return (
     <div  id="About"  className="  h-fit w-full flex justify-start items-center   "  >
-      <div className="w-full h-fit py-5  flex  flexwrap justify-center items-center  mb-0  pl-[60px]   ">
+      <div className="w-full h-fit py-5  flex  flexwrap justify-center items-center  mb-0  px-[60px]   ">
         <div className="max-w-full justify-center items-center  w h-fit py-5">
           <div className=" flex  flex-row justify-start items-center  ">
-            <div className="text-3xl  flex justify-center items-center">
+            <div className="md:text-3xl text-[20px] flex justify-center items-center">
               <div className="textC  text-xl mr-5 "> 02.</div>
               <div
                 style={{ color: "rgb(200,210,242)" }}
