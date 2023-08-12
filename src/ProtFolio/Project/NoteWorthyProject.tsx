@@ -20,11 +20,11 @@ const NoteWorthyProject  :FC <PropsType> = ({  title , description, git   ,   li
 // console.log ( ' lmguage = ',language)
 
     return (
-    <div className={' h-fit max-w-full  rounded-md shadow-xl bg-gray-800 flex flex-col justify-start  items-center   m-[20px]  p-[20px]  ' +  (hide ? ' translate-y-[-5%] ' :'')}
+    <div className={' min-h-[360px] h-fit max-w-full max  rounded-md shadow-xl bg-gray-800 flex flex-col justify-start  items-center   m-[20px]  p-[20px]    ' +  (hide ? ' translate-y-[-5%] ' :'')}
     onMouseEnter={ onHoverIn}
     onMouseLeave= { onHoverOut }
     >
-        <div className=' w-full flex flex-row  justify-between my-3 items-center    '>  
+        <div className=' w-full flex flex-row  justify-between my-3 items-center  '>  
             <div  className=' textC text-4xl  '> <FaProjectDiagram /> </div>
             <div className=' text-2xl flex flex-row'> 
                 <a href= {link } className='textH  ' target={'_blank'} > <FiExternalLink /> </a>   
@@ -32,14 +32,14 @@ const NoteWorthyProject  :FC <PropsType> = ({  title , description, git   ,   li
             </div>
         </div>
 
-        <div className=' flex flex-col mt-[30px] justify-center items-center px-[10px]'>
-            <div className= {' text-gray-300 hover:text-teal-300 fontFM text-[28px] mt-3 font-semibold mb-  ' + (hide ? ' text-teal-300' : '')}> {title} </div>
+        <div className=' flex flex-col mt-[10px] justify-center items-center px-[0px]'>
+            <div className= {' text-gray-300 hover:text-teal-300 fontFM text-[28px] mt-3 font-semibold  ' + (hide ? ' text-teal-300' : '')}> {title} </div>
         
-            <p className=' text-gray-300  mt-[40px]' > {description} </p>
+            <p className=' text-gray-300  mt-[40px] text-center' > {description} </p>
             
-            <div  style={{ fontFamily : '"SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace', }} className='flex flex-wrap justify-between items-center  w-full leading-5 fontF mt-[50px] text-gray-300 text-xs '>
+            <div  style={{ fontFamily : '"SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace', }} className=' w-full grid grid-cols-3 col-span-2  gap-1  justify-center items-center  w-full leading-5 fontF mt-[50px] text-gray-300 text-xs text-left  '>
                 { language.map ((val,index)=>{
-                    return ( <div  key = {index}> {val} </div>)
+                    return ( <div className=' mr-2  px-3' key = {index}>  <div className=' list-item'> {val}</div> </div>)
                 })} 
 
 

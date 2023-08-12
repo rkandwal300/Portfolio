@@ -4,7 +4,7 @@ export const  allData = [
         description :  'Building a fullstack custom E-commerce  using React typescript with Api Integration  .',
         github :'https://lnkd.in/g9JnnduR'  ,
         linl :  'https://my-easycart.netlify.app/' ,
-        languages : [ 'React' , ' TypeScript' , ' API Integration' , "logIn Api ","SignUp Api" , "Tailwind CSS" ," <br>Backend cart Api" ],
+        languages : [ 'React' , ' TypeScript' , ' API Integration' , "logIn Api ","SignUp Api" , "Tailwind CSS" ," Backend cart Api" ],
         year : 2022 ,
     } ,
     {
